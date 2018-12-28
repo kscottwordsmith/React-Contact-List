@@ -40,7 +40,7 @@ class Contact extends Component {
                     <li className="needsCaps contactText"><i class="fa fa-user"></i> {this.state.fname} {this.state.lname}</li>
                     <li className="contactText"><i className="fa fa-envelope"></i> {this.state.email}</li>
                     <li className="contactText"><i className="fa fa-mobile"></i> {this.state.cell}</li>
-                    <li className="needsCaps contactText"><i className="fa fa-building"></i> {this.state.city}, {this.state.st}</li>
+                    <li className="needsCaps contactText"><i className="fa fa-globe"></i> {this.state.city}, {this.state.st}</li>
                 </ul>
             </div>
         )
