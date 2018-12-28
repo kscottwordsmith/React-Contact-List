@@ -1,0 +1,48 @@
+#listViewHead {
+    background: green;
+    width: 400px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 25px;
+    font-family: "Luminari", fantasy;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-radius: 15px 15px 0px 0px;
+}
+
+a {
+    text-transform: capitalize;
+}
+
+ul {
+    padding-left: 0;
+}
+
+#peepsList {
+    width: 400px;
+    list-style: none;
+    margin-top: 0;
+}
+
+.peepname {
+    border-bottom: 1px solid #666;
+    height: 75px;
+}
+
+.peepname img {
+    border-radius: 25px;
+    position: relative;
+    top: 13px;
+    left: 2px;
+}
+
+.peepname a {
+    text-decoration: none;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+}
+
+.peepname a, .peepname a:visited {
+    color: black;
+}
