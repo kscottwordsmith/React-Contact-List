@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Users from './UserContent.json'
-import { BrowserRouter as Router } from 'react-router-dom'
 import 'font-awesome/css/font-awesome.css'
 import './Contact.css'
 
